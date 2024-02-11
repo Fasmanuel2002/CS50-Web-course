@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <style>
+        #Google {
+            position: relative;
+            left: 1150px;
+            top: 20px;
+            
+            
+        }
+        form {
+            position: relative;
+            left: 450px;
+            top: 375px; 
+            column-count: auto;
+        }
+    
+    body {
+        display: block;
+        margin: 8px;
+        min-width: 400px;
+        font-size: 14px;
+        font-family: arial,sans-serif;
+        color: #202124;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    
+    button{
+        border-radius: 15px 50px 30px 5px;
+      
+    }      
+    img{
+            position: relative;
+            left: 450px;
+            top: 350px;
+        }
+    </style>
+    </head>
+    <body>
+        <img src="Google advance.png" alt="Google Advance">
+        <form action="https://www.google.com/search" method="GET" -->
+            
+            <table>
+                Find Web pages with:
+                <tr>
+                    <td><label for="allWords"> “all these words:”</label></td>
+                    <td><input type="text" id="allWords" name="as_q"></td>
+                </tr>
+                <tr>
+                    <td> <label for="exactWords">“this exact word or phrase:”</label></td>
+                    <td><input type="text" id="exactWords" name="as_epq"></td>
+                </tr>
+                <tr>
+                    <td><label for="anyWords"> “Any of these words:”</label></td>
+                    <td><input type="text" id="anyWords" name="as_oq"></td>
+                </tr>
+                
+                <tr>
+                    <td><label for="NoneWords"> “None of these words:”</label></td>
+                    <td><input type="text" id="NoneWords" name="as_eq"></td>
+                </tr>
+                
+            
+                <tr>
+                    <td><button><input type="submit" value="Google Advance Search"></button></td>
+                </tr>
+            </table>
+       
+        </form>
+    </body>
+</html>
+
